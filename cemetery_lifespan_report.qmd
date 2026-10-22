@@ -1,7 +1,7 @@
 ---
-title: ""
-author: ""
-date: ""
+title: "The Effects of Marrige on Women's life span"
+author: "Amos Christopher Terrell"
+date: "October 15, 2026"
 format:
   pdf:
     pdf-engine: xelatex
@@ -108,7 +108,7 @@ csl: newphytologist.csl
 
 \noindent
 {\small
-Brandon Thomas Hendrickson\textsuperscript{1,*}
+Amos Christopher Terrell\textsuperscript{1,*}
 }
 
 \vspace{0.08in}
@@ -186,10 +186,7 @@ Cemetery records provide individual birth and death dates that can be used to de
 
 Write each hypothesis before interpreting the figures. State the expected direction and identify the comparison.
 
-1. **Sex and lifespan:** I hypothesize that [women / men] will have a greater lifespan than [men / women] in this sample because [brief rationale].
-2. **Marriage and lifespan:** I hypothesize that [married / unmarried] [women / men] will have a greater lifespan than [comparison group] because mental health and physical heatlh goes hand to hand and people that have a lifelong companion have a higher rate of survival. 
-3. **Military service and lifespan:** I hypothesize that male records marked as military service will show [greater / lower / similar] lifespan than records not marked for service because [brief rationale].
-4. **Birth period and lifespan:** I hypothesize that people born [before / in or after] 1930 will show [greater / lower / similar] lifespan because [brief rationale].
+2. **Marriage and lifespan:** I hypothesize that married women will have a greater lifespan than unmarried women than because mental health and physical heatlh goes hand to hand and people that have a lifelong companion have a higher rate of survival. 
 
 # Methods
 
@@ -210,23 +207,19 @@ Complete the prompts below. Replace bracketed text with details from the field v
 - **How did you determine marital status?** There were some obvious markers describing a loving Husband/Wife, but some graves were marked as mother and father on family plots placed side by side. Those graves counted as wife and husband.
 - **How did you determine military service?** The markers on the grave helped determine if the samples in the data set were vetrans.                           - 
 -**How did you determine sex or gender?** The markers on the grave (Husband, Mother, Father, etc.) were used to identfy the sex of people used in the data set
-- **How were missing, illegible, or ambiguous records handled?** Did not record the graves that were not llegible.
+- **How were missing, illegible, or ambiguous records handled?** Did not record the graves that were not legible.
 
 ## Dataset and analysis
 
 - **How many records were collected by you?** We recorded 51 people in total. 
-- **How many records were included in the final analysis?**  The sample set was toatl of 754 samples. 
-- **Were records aggregated with the class dataset?** [Yes / no. If yes, describe how duplicates and conflicting entries were checked.]
-- **What summaries or plots were produced?** [Describe group summaries and empirical survivorship curves, including how categories were defined.]
-- **What are the limits of the sample?** Most of the sample used had skewed eras. The medical technology from different eras improved.
+- **How many records were included in the final analysis?**  The sample set was toatl of 752 samples. 
+- **Were records aggregated with the class dataset?** It was hard to tell if there were duplicates in the data set since there are two sections combined data, but I assume there were multiple duplicates.
+- **What summaries or plots were produced?** The graph shows the differences between married women and males surviability rate.
+- **What are the limits of the sample?** The samples obsereved were skewed since there were multiple diffrent generations in the cementry. The younger generations had much longer survivabilty rates since with time health care became better.
 
 # Results
 
-**Replace each image placeholder with a PNG of the matching plot from the final class dataset. Keep figures in the `survivorship_curves` and `cemetery_lifespan_report_files` folder, or update the image path in the Markdown. The figure captions are editable and should describe the plotted groups, axes, and relevant reference lines.**
-
-**Summarize the data both by referencing @fig-summary and by writing out what the table is displaying specific to your particular research hypothesis. For instance, if you are interested only in marriage status and sex, then report the mean and standard deviation of males and females that are married vs unmarried; you do not need to discuss military status unless this is part of your research question/hypothesis.**
-
-*The summary table in @fig-summary shows substantial differences in recorded lifespan by sex in this sample. Males had a mean lifespan of 59.0 years (SD = 20.4; n = 3), compared with 29.7 years (SD = 7.1; n = 3) for females. The marital-status breakdown is more tentative because each subgroup contains only one or two records. Among males, the two married individuals had a mean lifespan of 70.5 years (SD = 6.4), while the one unmarried individual lived 36 years. Among females, the one married individual lived 36 years, compared with a mean of 26.5 years (SD = 6.4) for the two unmarried individuals. These small subgroup sizes make the values descriptive; they do not support broad conclusions about sex or marital status.*
+The summary table in @fig-summary shows substantial differences in recorded lifespan by sex in this sample. Males had a mean lifespan of 59.0 years (SD = 20.4; n = 3), compared with 29.7 years (SD = 7.1; n = 3) for females. The marital-status breakdown is more tentative because each subgroup contains only one or two records. Among males, the two married individuals had a mean lifespan of 70.5 years (SD = 6.4), while the one unmarried individual lived 36 years. Among females, the one married individual lived 36 years, compared with a mean of 26.5 years (SD = 6.4) for the two unmarried individuals. These small subgroup sizes make the values descriptive; they do not support broad conclusions about sex or marital status.
 
 ![Summary of lifespan by sex and by marrital status for each sex.](lifespan_tables/combined_tables.png){#fig-summary width=90% fig-pos="t" fig-env="figure*"}
 
@@ -234,21 +227,16 @@ Complete the prompts below. Replace bracketed text with details from the field v
 
 ![Survivorship curves by sex. The y-axis shows the percentage of the cemetery sample surviving to each lifespan. Dotted vertical lines mark the median lifespan for each sex, where the curve reaches 50%.](survivorship_curves/survivorship_by_sex.png){#fig-sex width=70% fig-pos="t" fig-env="figure*"}
 
-*The within-sex comparisons in @fig-married show higher plotted mean lifespans for married than unmarried individuals in both panels. For males, the plotted means are 64.3 years for married individuals and 55.4 years for unmarried individuals. For females, they are 64.3 and 46.3 years, respectively. The curves also place the 50% survival point later for the married groups. These are descriptive differences and should not be interpreted as evidence that marriage caused longer lifespan; other factors and the sizes and composition of the groups could contribute.*
+The within-sex comparisons in @fig-married show higher plotted mean lifespans for married than unmarried individuals in both panels. For males, the plotted means are 64.3 years for married individuals and 55.4 years for unmarried individuals. For females, they are 64.3 and 46.3 years, respectively. The curves also place the 50% survival point later for the married groups. These are descriptive differences and should not be interpreted as evidence that marriage caused longer lifespan; other factors and the sizes and composition of the groups could contribute.*
 
 ![Survivorship by marital status, with separate male and female panels. Dotted vertical lines mark the median lifespan for each marital-status group, where the curve reaches 50%.](survivorship_curves/survivorship_married_by_sex_combined.png){#fig-married width=70% fig-pos="t" fig-env="figure*"}
 
-**Summary of observed results:** [Describe the main pattern, sample size for each comparison, and any uncertainty or missing-data issue. Refer to the figures by number. Do not infer causation from group differences.]
+**Summary of observed results:** As seen in the results it was pretty clear that married men and women had similar means of age survived. Unmarried samples had a way lower surviability rate than the counterpart.
 
 # Discussion
 
-**Sex and lifespan.** Research on sex differences in longevity points to a combination of biological, behavioral, and social influences rather than a single explanation. Austad and Fischer review evidence on sex differences in lifespan and aging across species, including humans [@austadSexDifferencesLifespan2016]. In this cemetery sample, the observed female and male curves [describe the pattern] and [support / do not support] the prediction that [state your hypothesis]. The result should be interpreted in the context of this cemetery’s birth cohorts and sampling process; it is not by itself an estimate of a general sex difference in lifespan.
 
-**Marital status and social relationships.** Marriage can correlate with social support, health behaviors, household resources, and social integration, but people’s health can also influence whether they marry or remain married. A large meta-analysis found associations between unmarried status and mortality, with some associations differing by sex [@wangSexDifferencesAssociation2020]; a broader meta-analysis linked social relationships with mortality risk [@holt-lunstadSocialRelationshipsMortality2010]. In this dataset, the comparison of married and not-married records among [men / women / both] showed [describe results]. These cemetery records do not measure relationship quality, social contact, or the timing and duration of marriage, so marital status should be treated as an imperfect indicator rather than a direct measure of socialization or a cause of longevity.
-
-**Historical changes in lifespan and childhood survival.** Life expectancy at birth is strongly affected by deaths in infancy and childhood, so a low historical average does not mean that every adult died young. Improvements in clean water and sanitation contributed substantially to mortality declines in the United States during the twentieth century, especially for infants and children [@cutlerRolePublicHealth2005]. The birth-period pattern in this sample [describe results] may be consistent with changing survival conditions, but birth year alone cannot identify which changes mattered. Vaccination, nutrition, medical care, living conditions, and the incomplete representation of people in cemetery records may also contribute to differences across cohorts.
-
-**Limitations and next steps:** [Discuss sample size, missing or inferred data, cemetery representation, family clustering, survivorship bias, and what additional evidence would strengthen the analysis.]
+**Marital status and social relationships.** Marriage can correlate with social support, health behaviors, household resources, and social integration, but people’s health can also influence whether they marry or remain married. A large meta-analysis found associations between unmarried status and mortality, with some associations differing by sex [@wangSexDifferencesAssociation2020]; a broader meta-analysis linked social relationships with mortality risk [@holt-lunstadSocialRelationshipsMortality2010]. In this dataset, the comparison of married and not-married records among women was darstically diffrent those who were married lived an average of 8 years longer. These cemetery records do not measure relationship quality, social contact, or the timing and duration of marriage, so marital status should be treated as an imperfect indicator rather than a direct measure of socialization or a cause of longevity.
 
 ```{=latex}
 \newpage
